@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Reimbursement Request</title>
+</head>
+<body>
+<form action="Serv" method="post" enctype="multipart/form-data">
+	<table>
+		<thead>
+			<tr>
+				<th>Sl No</th>
+				<th>Property</th>
+				<th>Value</th>
+			</tr>
+		</thead>
+	
+		<tbody>
+		
+			<tr>
+				<td>1</td>
+				<td>Enter Amount :</td>
+				<td><input type="number" name="amount"
+					placeholder="Amount" /></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Enter Description:</td>
+				<td><input type="text" name="description"
+					placeholder="Description" /></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Select Receipt Image :</td>
+				<td><input type="file" name="receipt" /></td>
+			</tr>
+			<tr>
+				
+				<td><input type="reset" value="Clear" /></td>
+				<td><input type="submit" value="Create Reimburse Request" /></td>
+			</tr>
+		
+		</tbody>
+	</table>
+</form>
+</body>
+</html>
